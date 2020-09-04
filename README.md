@@ -1,3 +1,3 @@
-## Upcoming soon: Project portfolio.
+## Coming soon: Project portfolio.
 
 Creating a portfolio containing current projects.
