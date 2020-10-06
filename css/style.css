@@ -1,8 +1,6 @@
-
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -69,70 +67,71 @@ h2 {
 /* Projects section */
 
 .projects-section {
-  text-align: center;
-  padding: 10rem 2rem;
-  background: #1EA7A8;
+    text-align: center;
+    padding: 10rem 2rem;
+    background: #1EA7A8;
 }
 
 .projects-section-header {
-  max-width: 640px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid #fff;
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid #fff;
 }
 
 @media (max-width: 28.75em) {
-  .projects-section-header {
-    font-size: 4rem;
-  }
+    .projects-section-header {
+        font-size: 4rem;
+    }
 }
 
 /* "Automagic" image grid using no media queries */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
 }
 
 @media (max-width: 30.625em) {
-  .projects-section {
-    padding: 6rem 1rem;
-  }
+    .projects-section {
+        padding: 6rem 1rem;
+    }
 
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .project {
-  background: #4b4b4b;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
+    background: #4b4b4b;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
 }
 
 .code {
-  color: #4b4b4b;
-  transition: color 0.3s ease-out;
+    color: #4b4b4b;
+    transition: color 0.3s ease-out;
 }
 
 .project:hover .code {
-  color: #ff7f50;
+    color: #ff7f50;
 }
 
 .project-image {
-  height: calc(100% - 6.8rem);
-  width: 100%;
-  object-fit: cover;
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
 }
 
 .project-title {
-  font-size: 1.5rem;
-  padding: 2rem 0.5rem;
-  color: #fff;
+    font-size: 1.5rem;
+    padding: 2rem 0.5rem;
+    color: #fff;
 }
+
 .projects-grid a {
     text-decoration: none;
 }
@@ -156,8 +155,9 @@ p {
     display: flex;
     justify-content: space-evenly;
 }
+
 .contact-links a:hover {
-  transform: translateY(8px);
+    transform: translateY(8px);
 }
 
 .contact-links a {
