@@ -5,42 +5,104 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="GitHub project portfolio.">
-    <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link rel="stylesheet" type="text/css" href="css/queries.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <title>Julia Toifl</title>
 </head>
 
 <body>
-    <header>
-        <h1>Projects</h1>
-        <p>Hi there! I created this page to showcase some of my GitHub projects. Enjoy!</p>
-        <p>Find me on <a href="https://github.com/julitoi">GitHub</a> or <a href="www.linkedin.com/in/juliatoifl">LinkedIn</a>.</p>
-    </header>
-    
-    <section class="projects">
-        <div class="row">
-            <h2>HTML / CSS / JAVASCRIPT</h2>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-4 project-box">
-                 <a href="https://julitoi.github.io/omnifood/" target="_blank"><img src="img/Omnifood.png" alt="Omnifood"></a>
-                <h3>Omnifood</h3>
-                <div>
-                    <p>Responsive one-page website with focus on CSS features.</p>
-                </div>
-            </div>
-            <div class="col span-1-of-4 project-box">
-                 <a href="https://julitoi.github.io/BudgApp" target="_blank"><img src="img/BudgApp.png" alt="BudgApp"></a>
-                <h3>BudgApp</h3>
-                <div>
-                    <p>Calculation web app embracing ES5 and ES6.</p>
-                </div>
-            </div>
 
-        </div>
-    </section>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="welcome-section">
+            <h1>Welcome. I'm Julia.</h1>
+        </section>
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">Here are some of my recent projects.</h2>
+  <div class="projects-grid">
+    <a
+      href="https://julitoi.github.io/omnifood/"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="img/Omnifood.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Omnifood
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://julitoi.github.io/BudgApp"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="img/BudgApp.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        BudgApp
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://julitoi.github.io/ProductLandingPage/"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="img/ProductLandingPage.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Product Landing Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://julitoi.github.io/NutellaSurvey/"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="img/NutellaSurvey.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Exemplary Survey
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+  </div>
+</section>
+        <section id="contact-section">
+            <h2>Let's get in touch!</h2>
+            <div class="contact-links">
+                <a href="https://github.com/julitoi" id="profile-link" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/juliatoifl" target="_blank">LinkedIn</a>
+                <a href="https://www.xing.com/profile/Julia_Toifl/cv" target="_blank">Xing</a>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
